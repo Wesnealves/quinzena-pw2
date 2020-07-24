@@ -1,0 +1,15 @@
+create database estoquecrud;
+use estoquecrud;
+create table produtos(
+nome_produto varchar(50),
+categoria varchar(30),
+quantidade int,
+data_compra date,
+preco_custo float,
+margem_lucro float
+);
+alter table produtos add column (id_produto int primary key auto_increment);
+
+insert into produtos(nome_produto,categoria,quantidade,data_compra,preco_custo,margem_lucro) values ("teste de produto","teste de categoria",6,"2020-07-20",2.00,.5);
+alter table produtos add column (dir_image varchar(100));
+select * from produtos;

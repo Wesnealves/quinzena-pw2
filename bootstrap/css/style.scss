@@ -1,0 +1,85 @@
+/* Gerais */
+
+body{
+    font-family:'Roboto',sans-serif;
+}
+label{
+    color: #e69d45;
+}
+
+.row{
+    margin: 0;
+    color: white;
+    padding: 5px;
+}
+
+.container {
+    padding: 70px 0;
+    
+}
+
+p {
+    color: #ffffff;
+    font-size: 14px;
+    text-shadow: 1px 1px black;
+    padding: 10px;
+}
+
+h2
+{
+    text-align: center;
+    padding: 10px;
+    color: #e69d45;
+    border-color: black;
+    text-shadow: 2px 2px black;
+}
+
+/* Barra de navegação */
+header, .navbar{
+    background-color: #000000d5;
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+
+#logo {
+    width: 175px;
+}
+
+.nav-brand{
+    padding: 0;
+    color: #d4cfc9;
+}
+
+.nav-brand:hover{
+    color:#d4cfc9;
+}
+
+#navbar-links a {
+    color: #d4cfc9;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}
+
+/* Slider */
+.container-fluid {
+    padding: 0;
+}
+
+.container{
+    background-color: #121212;
+    box-shadow: 3px 3px 3px 3px black;
+}
+.container-fluid{
+    background-color: #121212;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+  
+}
+// DIVS
